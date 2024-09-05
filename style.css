@@ -1,0 +1,517 @@
+.firstmenu i{
+    color: #777;
+    font-size: 14px;
+    margin:  10px;
+    cursor: pointer
+}
+.Free{
+    background-color: #FAB700;
+    color: white;
+    border: #FAB700 1px solid;
+    border-radius: 3px;
+    padding: 0px 19px;
+    margin-left: 5px;
+}
+.Free:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: #777;
+}
+
+.flex{
+    display: flex;
+}
+.op1{
+    color: #777;
+    font-weight: 600;
+    border: 1px grey solid;
+    border-radius: 3px;
+    padding: 0px 19px;
+    background-color: rgb(236, 236, 236);
+    padding: 9px;
+}
+.option{
+    margin-left: 70%;
+}
+.firstmenu{
+        padding: 10px 120px;
+    border-bottom: 1px rgb(204, 204, 204) solid;
+}
+.menufixed img {
+    width: 150px;
+    height: 50px;
+}
+.menufixed {
+    padding: 15px 130px;
+    position: sticky;
+    top: -5px;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgb(146, 146, 146);
+    z-index: 99;
+    
+}
+.menulink {
+    margin-left: 550px;
+}
+.menufixed a {
+    text-decoration: none;
+    color: #222;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.a1:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.a2:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.a3:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.a4:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.a5:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.a6:hover{
+    transition: 0.4s;
+    color: #FAB700;
+}
+.bacground{
+    background: url(https://i.pinimg.com/originals/b0/55/d9/b055d9200d45488b19d439ec33614f63.jpg);
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.transparentback {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    width: 510px;
+}
+.transparentback h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+.center p {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.center button {
+    color: #FAB700;
+    background-color: #222;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px 24px;
+    margin-left: 195px;
+    font-weight: 600;
+}
+.center button:hover {
+    transition: 0.5s;
+    color: #222;
+    background-color: #FAB700;
+}
+.transparentback span {
+    color: #222;
+    background-color: #FAB700;
+    border-radius: 5px;
+}
+.services {
+    padding: 120px;
+}
+.services h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+.services p {
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.boxes div {
+    width: 250px;
+    padding: 60px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+.boxes {
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.box2:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.box3:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxes h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.boxes p {
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+    width: 200px;
+}
+.latest{
+    position: relative;
+    padding: 100px;
+}
+.latest h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.images1 {
+    margin: 20px 0px;
+}
+.latest p {
+    color: #777;
+    text-align: center;
+}
+.images1 img {
+    width: 100%;
+}
+.images2 img {
+    width: 100%;
+}
+.meeting {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.meeting h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.meeting p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250;
+    margin-bottom: 15px;
+    color: #777;
+}
+.users {
+    display: flex;
+    justify-content: space-around;
+    width: 77vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.users {
+    display: flex;
+    justify-content: space-around;
+    width: 77vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.users div h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.users div p {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 350;
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.flex{
+    display: flex;
+}
+.fff:hover{
+    transition: 0.5s;
+    background-color: #FAB700;
+}
+.features h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 15px;
+}
+.p1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 350;
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.flexbox1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83vw;
+}
+.flexbox2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83vw;
+}
+.boxn1, .boxn2, .boxn3, .boxn4, .boxn5, .boxn6 {
+    width: 600px;
+    border: solid 1px rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    padding: 40px 0px;
+    font-size: 10px;
+    transition: 0.4s;
+}
+.boxnflex{
+    display: flex;
+    align-items: center;
+}
+.flexbox1 i {
+    font-size: 35px;
+    color: #222;
+    margin-left: 15px;
+    margin: 0px 10px;
+}
+.flexbox2 i {
+    font-size: 35px;
+    color: #222;
+    margin-left: 15px;
+    margin: 0px 10px;
+}
+.features h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0px;
+}
+.p1 {
+    text-align: center;
+    font-weight: 350;
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.p11 {
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 350;
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.boxn1:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxn2:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxn3:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxn4:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxn5:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.boxn6:hover{
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+}
+.flexbox1{
+    padding: 40px 0px;
+}
+.reviews {
+    background-color: rgba(245, 250, 236, 0.979);
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    border: rgb(202, 202, 202) solid 1px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 650px;
+}
+.div2{
+    border: rgb(202, 202, 202) solid 1px;
+    border-radius: 10px;
+    padding: 30px ;
+    width: 650px;
+}
+.div1 p {
+    color: #777;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.div2 p {
+    color: #777;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.vid{
+    margin:-50px 100px;
+    width: 50px;
+}
+.div1 h4{
+    width: 250px;
+    margin: 0px 150px;
+
+}
+.div2 h4{
+    width: 250px;
+    margin: 0px 150px;
+}
+.creative {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+
+}
+
+.creative img {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.creative img:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+.relative{
+    position: relative;
+}
+.contactus div div:first-child {
+    width: 250px;
+    margin-right: 50px;
+}
+.contactus div div:nth-child(2) {
+    width: 350px;
+    margin-right: 50px;
+}
+.contactus h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.contactus p {
+    color: #777;
+}
+.contactus {
+    background-color: #222;
+    padding: 100px 200px;
+    height: 450px;
+}
+#yello{
+    color: #FAB700;
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.contactus div div:nth-child(3) input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 450px;
+    margin-top: 20px;
+    outline: none;
+}
+.contactus a {
+    position: absolute;
+    right: 4px;
+    top: 23px;
+    background-color: #FAB700;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.last{
+    margin-top: 60px;
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+}
+.bb{
+    color: #FAB700;
+}
+.reallast i {
+    color: white;
+    background-color: #111;
+    padding: 10px;
+    margin: 5px;
+}
+.contactus div div:nth-child(2) {
+    width: 350px;
+    margin-right: 50px;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+}
+.reallast div div:nth-child(3) input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 450px;
+    margin-top: 20px;
+    outline: none;
+}
+.relative{
+    position: relative;
+    width: 455px;
+}
